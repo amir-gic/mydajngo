@@ -1,0 +1,6 @@
+tasks:
+  - init: pip list
+ports:
+  - port: 8000
+    visibility: public
+    onOpen: open-preview
